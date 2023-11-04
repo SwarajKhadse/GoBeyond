@@ -1,0 +1,47 @@
+.homebackimg{
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 90px;
+  
+   /* margin-left: 48px; */
+}
+.visitSiteButton{
+    width: 200px;
+    background-color: var(--lightBlue);
+    border: none;
+    border-radius: 44px;
+    font-size: 36px;
+}
+.homebackheading{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 90px;
+}
+.sideHomeImg{
+    width: 100%;
+    text-align: center;
+    background-image: url(../../../assets/homePage/map.png);
+    /* padding-top: 100px; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:  center -150px;
+}
+.mapImg{
+    margin-right: 40px;
+    margin-left: auto;
+}   
+.homebackCont1{
+    margin-top: 12vh;
+}
+.headingMainLakshwa{
+    color: #3282AD;
+}
+.homeDiscoverButt{
+    border: none;
+    height: 50px;
+    width: 154px;
+    background-color: white;
+    color: var(--purple);
+    border: 2px solid var(--purple);
+    border-radius: 5px;
+}

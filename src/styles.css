@@ -2,9 +2,14 @@
 :root {
     --purple: #3282AD;
     --black: #3A3A3A;
+    --lightBlue: #D2F4FF;
 
 }
-
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
 .gradient {
     background: rgb(255, 255, 255);
     background: -moz-linear-gradient(360deg, rgba(255, 255, 255, 1) 54%, rgba(229, 248, 254, 1) 97%);
@@ -12,6 +17,15 @@
     background: linear-gradient(360deg, rgba(255, 255, 255, 1) 54%, rgba(229, 248, 254, 1) 97%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e5f8fe", GradientType=1);
 }
+.fontOpen400{
+    font-weight: 400;
+    font-size: 16px;
+}
 
-
-
+.fontWhite{
+    color: white;
+}
+.sideCustom{
+    width: 90%;
+    margin: auto;
+}
