@@ -1,7 +1,7 @@
 <div class="packagesCard pb-4">
     <div class="packagesCardSubDiv">
-        <img class="packageCardImg" src="../../../../assets/homePage/cardImg1.png" alt="">
-        <button class="packageCardPrice">R500</button>
+        <img class="packageCardImg" src={{packageSingle.imgUrl}} alt="">
+        <button class="packageCardPrice">{{packageSingle.amount}}</button>
     </div>
     <div class=" d-flex justify-content-between p-3">
         <div>
@@ -10,7 +10,7 @@
                     location_on
                 </span>
                 <span class="packageCardIconHead">
-                    Indonesia
+                    {{packageSingle.place}}
                 </span> 
             </span>
         </div>
@@ -19,7 +19,7 @@
                 <span class="material-symbols-outlined pakcageCardStar">
                     star
                 </span><span class="packageCardIconHead">
-                    4.5
+                    {{packageSingle.ratingStar}}
                 </span>
             </span>
         </div>
@@ -27,8 +27,7 @@
        
     </div>
     <p class="ps-3 packageCardbookDetails">
-        Explore the Beauty of the island for 3 days
-and 2 nights with our travel agency...
+        {{packageSingle.description}}
     </p>
     <div class="w-100 text-center">
         <button class="packageCardbookButton m-auto">

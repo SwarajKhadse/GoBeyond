@@ -1,0 +1,9 @@
+<div class="sideCustom text-center"> 
+    <p class="reviewHead">
+        What Our Clients Says <br>
+        About Us
+    </p>
+    <div class="d-flex justify-content-between ">
+        <app-review-card *ngFor = "let item of reviewData" [reviewsSingle] = "item"></app-review-card>
+    </div>
+</div>

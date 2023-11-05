@@ -1,0 +1,49 @@
+.exploreDiv{
+    height: 30vh;
+    /* border: 1px solid black; */
+    background-color: #42A7C3;
+    margin-bottom: 200px;
+    display: flex;
+    position: relative;
+    border-radius: 15px;
+    margin-top: 70px;
+
+}
+.exploreMapImg{
+    position: absolute;
+    top: 0px;
+    height: 28vh;
+}
+.exploreDiv1{
+    width: 45%;
+   
+}
+/* .exploreDiv2{
+    width: 55%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+} */
+.exploreButton{
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    width: 163px;
+    height: 40px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    font-size: 17px;
+    font-weight: 600;
+}
+.explorePara1{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.explorePara2{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}

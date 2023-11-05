@@ -1,0 +1,37 @@
+<div class="packagesCard pb-4">
+    <div class="packagesCardSubDiv">
+        <img class="packageCardImg" src={{stays.imgUrl}} alt="">
+
+    </div>
+    <div class="mt-3">
+        <span class="packageCardIcon mt-3">
+
+            <span class="packageCardIconHead m-3">
+                {{stays.place}}
+            </span>
+            <p class="ps-3 packageCardbookDetails mb-1">
+                {{stays.description}}
+            </p>
+        </span>
+    </div>
+    <div>
+        <div class=" d-flex justify-content-between p-3">
+            <span class="packageCardIcon1">
+                <span class="material-symbols-outlined pakcageCardStar">
+                    star
+                </span><span class="packageCardIconHead">
+                    {{stays.ratingStar}}
+                </span>
+                <span>
+                    ({{stays.reviewCount}}k Review)
+                </span>
+            </span>
+            <button class="packageCardbookButton ">
+                Book Now
+            </button>
+        </div>
+
+
+    </div>
+
+</div>

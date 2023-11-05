@@ -1,0 +1,37 @@
+.reviewCard{
+    width: 350px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 25px 0px #3282AD26;
+    border-radius: 10px;
+
+}
+.reviewCardImg{
+    width: 130px;
+}
+.reviewCardName{
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 0px;
+    color: #222222;
+}
+.reviewCardPlace{
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-weight: 600;
+    font-size: 16px;
+    color: #555555;
+}
+.reviewCardpara{
+    font-family: 'Inter', sans-serif;
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5A5A5A;
+}
+.pakcageCardStar{
+    color: var(--purple);
+}

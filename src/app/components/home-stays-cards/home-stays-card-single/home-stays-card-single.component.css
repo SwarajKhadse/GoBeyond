@@ -33,18 +33,19 @@
     font-size: 16px;
 }
 .packageCardIconHead{
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 18px;
 }
 .pakcageCardStar{
     color: var(--purple);
 }
 .packageCardbookButton{
     border: none;
-    width: 163px;
-    height: 35px;
+    width: 120px;
+    height: 30px;
     background-color: #3282AD;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 14px;
     color: white;
     border-radius: 4px;
 }
