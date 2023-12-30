@@ -12,6 +12,7 @@ import { HomeStaysCardSingleComponent } from './components/home-stays-cards/home
 import { ExploreDivComponent } from './components/explore-div/explore-div.component';
 import { ReviewComponent } from './components/review/review.component';
 import { ReviewCardComponent } from './components/review/review-card/review-card.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ReviewCardComponent } from './components/review/review-card/review-card
     HomeStaysCardSingleComponent,
     ExploreDivComponent,
     ReviewComponent,
-    ReviewCardComponent
+    ReviewCardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule

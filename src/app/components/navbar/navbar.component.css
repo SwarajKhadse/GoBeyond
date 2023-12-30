@@ -1,13 +1,18 @@
+.navbar{
+    width:96%;
+    margin:auto;
+}
 .navbarLogo{
     width: 90px;
 }
 .signUpButton{
     background-color: var(--purple);
-    width: 100px;
+    width: 90px;
     border: none;
-    border-radius: 20px;
+    border-radius: 40px;
     font-weight: 400;
     font-size: 16px;
+    height: 44px;
 }
 .loginButton{
     color: var(--purple);
